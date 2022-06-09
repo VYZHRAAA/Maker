@@ -55,6 +55,20 @@ ul {
     font-size: 16px;
     line-height: 160%;
     color: #969999;
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+.menu_link:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    /*margin-top: 41px;*/
+    width: 103x;
+    height: 37.5px;
 }
 
 .logo_text {
@@ -63,6 +77,19 @@ ul {
     font-size: 21px;
     line-height: 150%;
     color: #252626;
+    text-decoration: none;
+    margin: 1px 5px;
+}
+
+.header_logo {
+    text-decoration: none;
+    margin-top: 41px;
+    margin-right: 190px;
+}
+
+.img_logo {
+    width: 30px;
+    height: 30px;
 }
 
 .button {
@@ -74,17 +101,24 @@ ul {
     left: 1018px;
     top: 35px;
     background: #35AFBF;
-    border-radius: 6px;
-}
-
-.btn_text {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    border-radius: 6px;
+    border: none;
 }
 
+.button:hover {
+    color: orangered;
+    background: powderblue;
+}
+
+.button:hover path {
+    fill: orangered;
+}
+
+.mainmenu_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 46px;
+    margin-bottom: 68px;
+}
